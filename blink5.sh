@@ -1,9 +1,6 @@
 #!/bin/bash
 
-for value in {0..3}
-do
-	gpio mode $value out	
-done
+./initMode.sh
 
 for values in {1..5} 
 do
